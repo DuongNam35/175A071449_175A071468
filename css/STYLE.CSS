@@ -26,15 +26,22 @@ footer .title .menu
 {
     padding: 7px;
 }
-footer .title ul
+footer .title .menu1
 {
     justify-content: space-around;
     list-style: none;
     display: flex;
     padding: 0;
 }
+/* footer .title .menu1 .sub-menu li {
+    position: absolute;
+    
+}
+.background-img {
+    position: relative;
+} */
 footer .title ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -210,3 +217,85 @@ body .location{
 main .content-right ul,main .content-left ul{
     list-style: none;
 }
+
+/* --menu-- */
+/* .menu ul li:hover {
+    background-color: #50bbff;   
+} */
+
+.menu ul li {
+    /* display: inline-block; */
+    /* width: 120px;
+    height: 40px; */
+    /* margin: 15px; */
+}
+/* 
+.menu ul {
+    padding-inline-start: 0px;
+    text-align: center;
+}  */
+
+/* .sub-menu {
+    display: block;
+} */
+
+/* .menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.menu ul li {
+    display: inline-table;
+    height: 40px;
+    padding: 15px;
+} */
+
+/* .menu {
+    margin: 0;
+    padding: 0;
+} */
+
+/* .menu ul {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0px;
+} */
+
+.menu li {
+    /* position: relative; */
+    /* display: inline-table; */
+   /* padding: 15px; */
+    /* font-size: 17px; */
+    /* width: 100px; */
+    /* height: 40px;
+    line-height: 40px; */
+}
+/* 
+.container {
+    width: 1170px;
+
+} */
+
+/* .sub-menu {
+    width: 255px;
+    height: 122px;
+} */
+
+/* .background-img {
+    position: absolute ;
+} */
+
+.sub-menu li a {
+    /* position: relative;  */
+}
+.background-img #carouselExampleIndicators .carousel-inner {
+    /* position: absolute; */
+}
+
+/* .menu ul {
+    position: absolute;
+}
+.menu ul li {
+    position: relative;
+} */
