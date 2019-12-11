@@ -26,6 +26,18 @@ footer .title
 
 height: 40px;
 }
+
+.menu > ul > li > a {
+    /* position: relative; */
+    /* display: block; */
+    /* color: #fff; */
+    /* font-size: 17px; */
+    /* padding: 0 15px; */
+    /* outline: none; */
+    /* text-transform: uppercase; */
+    /* font-family: 'RobotoCondensedRegular', sans-serif; */
+    /* line-height: 44px; */
+}
 footer .title .menu 
 {
     /* padding: 7px; */
@@ -243,15 +255,21 @@ main .content-right ul,main .content-left ul{
 }
 
 .menu ul li a{
+    display: block;
     position: relative;
     height: 40px ;
     line-height: 40px;
 }
 
-.sub-menu > li:hover a{
+.menu ul .sub-menu > li:hover a{
+    /* color: #1931b5;
+    font-style: italic; */
+    padding-left: 25px;
+    
+}
+.sub-menu > li > a:hover  {
     color: #1931b5;
     font-style: italic;
-    
 }
 
 .sub-menu {
@@ -259,6 +277,7 @@ main .content-right ul,main .content-left ul{
     width: 255px;
     z-index: 1;
     padding-left: 0px;
+    height: auto;
 }
 
 .sub-menu li {
@@ -266,12 +285,14 @@ main .content-right ul,main .content-left ul{
 }
 
 
-.menu > ul > .l1:after {
+.menu ul .l1:after {
     background-color: #7b85b8;
     content: '';
     display: inline-block;
     height: 13px;
     width: 1px;
+    position: relative;
+    bottom: 32px;
 }
 
 .menu ul li a {
@@ -282,6 +303,19 @@ main .content-right ul,main .content-left ul{
 .menu ul.sub-menu > li > a {
     /* font-family: 'roboto' ,sans-serif; */
     /* font-size: 15px; */
-    border-top: 1px solid #96d6ff;
+    border-bottom: 1px solid #96d6ff;
     padding: 8px 0 8px 22px;
+    display: block;
+    height: auto;
+    line-height: 24px;
+
 }
+
+.sub-menu li a::before {
+    content: "\f101";
+    font-family: FontAwesome;
+    font-size: 14px;
+    left: 10px;
+    position: absolute;
+}
+
