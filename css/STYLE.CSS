@@ -1,6 +1,4 @@
-body {
-    /* font-family: Arial, Helvetica, sans-serif; */
-}
+
 .logo-search .search-lang .lang ul{
     display: flex;
   
@@ -21,7 +19,7 @@ body {
 .logo-search{
     margin-bottom:20px ;
 }
-footer .title
+.title-menu .title
 {
 
 height: 40px;
@@ -38,11 +36,11 @@ height: 40px;
     /* font-family: 'RobotoCondensedRegular', sans-serif; */
     /* line-height: 44px; */
 }
-footer .title .menu 
+.title-menu .title .menu 
 {
     /* padding: 7px; */
 }
-footer .title .menu1
+.title-menu .title .menu1
 {
     /* justify-content: space-around; */
     list-style: none;
@@ -56,10 +54,10 @@ footer .title .menu1
 .background-img {
     position: relative;
 } */
-footer .title ul li a{
+.title-menu .title ul li a{
     font-size: 16px;
     font-family: 'roboto',sans-serif;
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -67,6 +65,20 @@ footer .title ul li a{
 {
     color: cornflowerblue;
 } */
+/*main-main*/
+main .connection 
+{
+    position: fixed;
+   z-index: 1;
+   top:300px;
+   right: 10px;
+   
+}
+main .connection .conn-yt
+{
+    margin: 10px 0 10px 0;
+}
+
 .dnn-content ul
 {
     display: flex;
@@ -79,9 +91,9 @@ footer .title ul li a{
     text-align: center;
 
 }
-footer
+.title-menu
 {
-    background-color: #132685;
+    background-color: #7eabdf;
 }
 .dnn-content ul li p{
     padding-top:10px ;
@@ -171,10 +183,11 @@ padding: 3px;
 {
     color: black;
 }
-.infor .img-infor a{
+/*phần cuối footer*/
+/* .infor .img-infor a{
     padding-top: 10px;
     padding-left:15px ;
-}
+} */
 .infor-bottom .addresshn, .infor-bottom .addressmn
 {
     display: flex;
@@ -189,52 +202,46 @@ padding: 3px;
 
     padding-left: 30px;
 }
-.infor-bottom .mess  img,.infor-bottom .mess  div
+footer .infor .infor-bottom
+{
+    background-color: #3e608a;
+}
+footer .infor-bottom .mess  img,.infor-bottom .mess  div
 {
     position: fixed;
     right: 30px;
     bottom: 20px;
 }
-.infor-bottom .maps
+footer .infor-bottom .maps
 {
     width: 300px;
     padding-top: 50px;
     margin-right: 30px;
 }
-.infor-bottom .maps img{
+ footer .infor-bottom .maps img{
     width: 100%;
 }
-.infor-bottom .addresshn ,.infor-bottom .addressmn
+.infor-bottom .addresshn , .infor-bottom .addressmn
 {
     margin-left: 20px;
 }
 
-
+main nav .nav-item
+{
+    display: inline;
+}
 /* css thong bao va tin tức*/
 
-main .tb_tt_content ul
-{
-    list-style: none;
-    
-}
-main h2{
-    text-align: center;
-    
-}
-main .tb_tt_content ul li a{
-    text-decoration: none;
-    display: block;
-}
 /*css tuyen sinh*/
 body .location{
     margin: 2px 0 0 0;
     height: 32px;
-    background-color: #394a9e;
+    background-color: #112aa8;
 
 }
-main .content-right ul,main .content-left ul{
+/* main .content-right ul,main .content-left ul{
     list-style: none;
-}
+} */
 
 /* menu */
 
@@ -244,8 +251,31 @@ main .content-right ul,main .content-left ul{
 
 .menu ul {
     list-style-type: none;
-    background-color: #041e7a;
+    background-color: #a2b3f0;
 }
+.menu ul li a {
+    padding: 0 15px;
+}
+
+.menu ul .l1:after {
+    background-color: #7b85b8;
+    content: '';
+    display: inline-block;
+    height: 13px;
+    width: 1px;
+    position: relative;
+    bottom: 32px;
+}
+.menu ul li a{
+    display: block;
+    position: relative;
+    height: 40px ;
+    line-height: 40px;
+}
+
+
+
+
 
 .menu ul li > .sub-menu {
     display: none;
@@ -254,16 +284,10 @@ main .content-right ul,main .content-left ul{
     display: block;
 }
 
-.menu ul li a{
-    display: block;
-    position: relative;
-    height: 40px ;
-    line-height: 40px;
-}
 
+/* 
 .menu ul .sub-menu > li:hover a{
-    /* color: #1931b5;
-    font-style: italic; */
+
     padding-left: 25px;
     
 }
@@ -284,25 +308,8 @@ main .content-right ul,main .content-left ul{
     background-color: rgba(2,139,255,1);
 }
 
-
-.menu ul .l1:after {
-    background-color: #7b85b8;
-    content: '';
-    display: inline-block;
-    height: 13px;
-    width: 1px;
-    position: relative;
-    bottom: 32px;
-}
-
-.menu ul li a {
-    /* border-right: 1px solid white; */
-    padding: 0 15px;
-}
-
 .menu ul.sub-menu > li > a {
-    /* font-family: 'roboto' ,sans-serif; */
-    /* font-size: 15px; */
+  
     border-bottom: 1px solid #96d6ff;
     padding: 8px 0 8px 22px;
     display: block;
@@ -317,5 +324,5 @@ main .content-right ul,main .content-left ul{
     font-size: 14px;
     left: 10px;
     position: absolute;
-}
+} */
 
