@@ -188,7 +188,7 @@ padding: 3px;
     padding-top: 10px;
     padding-left:15px ;
 } */
-.infor-bottom .addresshn, .infor-bottom .addressmn
+/* .infor-bottom .addresshn, .infor-bottom .addressmn
 {
     display: flex;
     padding:20px;
@@ -206,12 +206,7 @@ footer .infor .infor-bottom
 {
     background-color: #3e608a;
 }
-footer .infor-bottom .mess  img,.infor-bottom .mess  div
-{
-    position: fixed;
-    right: 30px;
-    bottom: 20px;
-}
+
 footer .infor-bottom .maps
 {
     width: 300px;
@@ -224,8 +219,18 @@ footer .infor-bottom .maps
 .infor-bottom .addresshn , .infor-bottom .addressmn
 {
     margin-left: 20px;
-}
+} */
 
+footer  .mess  img,footer .mess  div
+{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+footer .infor
+{
+padding-top: 30px;
+}
 main nav .nav-item
 {
     display: inline;
