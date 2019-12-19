@@ -443,3 +443,68 @@ body .location{
 .daotao ul li a:hover {
     color: rgb(69, 133, 252);
 }
+
+/* LOGIN */
+
+.login h1 {
+    color: white;
+    margin-bottom: 30px !important;
+}
+.login .modal-content {
+    top: 30px;
+    margin: auto;
+    width: 400px !important;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.301) !important;
+}
+
+.login .btn-primary {
+    background-color: rgb(253, 191, 55) !important;
+    border-color: rgba(0, 0, 0, 0.582) !important;
+    left: 270px;
+    position: relative;
+    width: 100px;
+    color: black !important;
+}
+
+.login .signup {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.login .forgot {
+    text-align: center;
+}
+
+.login .modal-content a {
+    text-decoration: none !important;
+}
+
+.login .form-user::before {
+    height: 38px;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-family: FontAwesome;
+    content: '\f007';
+    position: absolute;
+    padding: 4px;
+    font-size: 25px;
+    background-color: rgb(253, 191, 55);
+}
+
+.login .form-group input {
+    padding-left: 30px;
+}
+
+.login .form-password::before {
+    content: '\f023';
+    height: 38px;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-family: FontAwesome;
+    position: absolute;
+    padding: 4px;
+    font-size: 25px;
+    background-color: rgb(253, 191, 55);
+}
+
+
