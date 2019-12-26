@@ -1,0 +1,42 @@
+.menu {
+  text-align: center;
+}
+
+.nav-item {
+  border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+header {
+  border: 0 !important;
+}
+
+header .logout {
+  padding-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.logout::before {
+  content: '\f011';
+  font-family: FontAweSome;
+  padding-right: 5px;
+}
+
+main table {
+  border-bottom: 1px solid rgb(87, 87, 87);
+
+}
+
+main th{
+  background-color: rgb(87, 181, 218);
+}
+
+main {
+  padding: 15px;
+}
+
+.ac {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}

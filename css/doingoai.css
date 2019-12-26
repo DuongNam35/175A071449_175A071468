@@ -1,0 +1,31 @@
+main .contentcell{
+    display: inline-block;
+    margin-left: 30px;
+}
+.contentimg img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.contentimg{
+    margin: 20px 0 0 30px ;
+
+}
+.contentcell p{
+    padding: 0px auto;
+}
+.content-img img{
+    width: 365px;
+    height: 220px;
+}
+.backgr{
+    background-color: #eeeeee;
+}
+
+.content-img img:hover {
+    width: 370px;
+    height: 225px;
+}
+
+
+

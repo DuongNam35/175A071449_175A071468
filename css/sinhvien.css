@@ -1,0 +1,14 @@
+.link a{
+    text-decoration: none;
+}
+.link{
+    list-style: none;
+    padding-left: 0px;
+}
+.link li{
+    padding: 10px 0  ;
+}
+.img-cont img{
+    width: 350px;
+    height: 200px;
+}
