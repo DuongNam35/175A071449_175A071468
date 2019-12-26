@@ -254,7 +254,7 @@ body .location{
     background-color: rgba(2,139,255,1);
 }
 
-.menu ul {
+.panner ul {
     list-style-type: none;
     background-color: #a2b3f0;
 }
@@ -274,7 +274,7 @@ body .location{
 .menu ul li a{
     display: block;
     position: relative;
-    height: 40px ;
+    /* height: 40px ; */
     line-height: 40px;
 }
 
@@ -330,4 +330,181 @@ body .location{
     left: 10px;
     position: absolute;
 } */
+
+/* LIÊN HỆ */
+.lienhe {
+    padding-top: 30px;
+}
+
+.lienhe td {
+    padding-bottom: 30px;
+}
+
+/* GIỚI THIỆU */
+
+.gioithieu ul li a {
+    text-decoration: none;
+}
+
+.gioithieu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gioithieu .sub-menu {
+    padding-left: 20px;
+}
+
+.gioithieu .sub-menu1 {
+    padding-left: 20px;
+}
+
+.gioithieu .sub-menu2 {
+    padding-left: 20px;
+}
+
+.gioithieu .menu ul li  a{  
+    border-bottom: 1px solid #d4d4d4;
+    color: black;
+}
+
+.gioithieu h2 {
+    color: rgb(63, 143, 209);
+}
+
+.gioithieu ul li a::before {
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+.gioithieu .menu ul li a:hover {
+    color: rgba(2,139,255,1);
+}
+
+.gioithieu {
+    padding-top: 30px;
+}
+
+/* ĐÀO TẠO */
+
+.daotao {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.daotao h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.daotao .chitiet {
+    position: absolute;
+    right: 20px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.daotao ul li .chitiet::before {
+    content: '\f105';
+    font-family: FontAwesome;
+    margin-right: 3px;
+
+}
+
+.daotao .title {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.daotao p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.daotao a {
+    text-decoration: none;
+}
+
+.daotao ul{
+    list-style: none;
+    padding: 0;
+}
+
+.daotao ul li {
+    padding-bottom: 50px;
+}
+
+.daotao .row-light {
+    background-color: #efefef;
+}
+
+.daotao ul li a:hover {
+    color: rgb(69, 133, 252);
+}
+
+/* LOGIN */
+
+.login h1 {
+    color: white;
+    margin-bottom: 30px !important;
+}
+.login .modal-content {
+    top: 30px;
+    margin: auto;
+    width: 400px !important;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.301) !important;
+}
+
+.login .btn-primary {
+    background-color: rgb(253, 191, 55) !important;
+    border-color: rgba(0, 0, 0, 0.582) !important;
+    left: 270px;
+    position: relative;
+    width: 100px;
+    color: black !important;
+}
+
+.login .signup {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.login .forgot {
+    text-align: center;
+}
+
+.login .modal-content a {
+    text-decoration: none !important;
+}
+
+.login .form-user::before {
+    height: 38px;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-family: FontAwesome;
+    content: '\f007';
+    position: absolute;
+    padding: 4px;
+    font-size: 25px;
+    background-color: rgb(253, 191, 55);
+}
+
+.login .form-group input {
+    padding-left: 30px;
+}
+
+.login .form-password::before {
+    content: '\f023';
+    height: 38px;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-family: FontAwesome;
+    position: absolute;
+    padding: 4px;
+    font-size: 25px;
+    background-color: rgb(253, 191, 55);
+}
+
 
