@@ -508,3 +508,16 @@ body .location{
 }
 
 
+/* conten-sv */
+
+.conten h3 {
+    color: blue;
+}
+
+.conten {
+    padding-top: 30px;
+}
+
+.conten a {
+    text-decoration: none;
+}
