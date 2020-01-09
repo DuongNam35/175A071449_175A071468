@@ -1,0 +1,17 @@
+<?php
+    include('../mysqli_connect.php');
+    $idnganh = $_POST['mamon'];
+    $tennganh = $_POST['tenmon'];
+    $idgiangvien = $_POST['idgiangvien'];
+    if(isset($_POST['submit']) && $_POST['mamon'] !='' && $_POST['tenmon']!=''&& $_POST['idgiangvien']!='')
+    {
+        
+        $sqlinsert="INSERT INTO monhoc(mamonhoc,tenmonhoc,idgiangvien) VALUES('$idnganh','$tennganh','$idgiangvien')";
+        mysqli_query($conn,$sqlinsert);
+        echo "bạn đã thêm thành công"; 
+          
+    }else{
+        header("location:themlophoc.php");
+        echo"kiểm tra lại ";
+    }
+?>
