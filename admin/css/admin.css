@@ -1,0 +1,48 @@
+.title{
+    background-color: rgb(93, 66, 248);
+    border: 1px solid black;
+    height: 60px;
+}
+.title input{
+    border-radius: 10px;
+}
+.submit{
+    height: 500px;
+    border: 2px solid black;
+}
+.title .user{
+    height: 100%;
+    width: 100px;
+    background-color: white;
+}
+.logout{
+    float: right;
+}
+.content{
+    height: auto;
+}
+.submit .btn{
+    width: 200px;
+    height: 100px;
+}
+.table .input-content {
+    width: 120px;
+} 
+
+.table .edit {
+    border-radius: 5px;
+}
+
+.table .edit a {
+    text-decoration: none;
+    color: black;
+}
+
+.table tr th, td {
+    text-align: center;
+}
+
+
+
+
+
